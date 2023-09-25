@@ -3,7 +3,16 @@
 ## Fetch Rewards Data Engineering Take Home: ETL off a SQS Queue ETL solution
 
 Please find the repository as the ETL solution for the project "ETL off a SQS Queue"
-  
+
+## Pre-requisite:
+Python 3.9 or higher
+
+Docker
+
+Docker-Compose
+
+pip install awscli-local
+
 ### To run the code
 1. Clone this repo.
 ```bash
@@ -125,5 +134,5 @@ In order to decrpyt the data  run the make python decrypt option
 ```bash
 make python_decrypt_start
 ```
-Enter the query on table user_logins ex **Select user_id, masked_ip, masked_device_id fro user_logins;**
+Enter the query on table user_logins ex **SELECT user_id, masked_ip, masked_device_id FROM USER_LOGINS;**
 
